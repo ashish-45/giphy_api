@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#basic-addon2{
+  cursor: pointer;
+}
+
+.textarea{
+  background-color: #eeeeee;
+  color: #666666;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 1em;
+}
+
+.textarea:focus{
+  color: #333333;
+  background-color: white;
+}
+
+
+.inputtext
+{
+  background-color: #eeeeee;
 }
